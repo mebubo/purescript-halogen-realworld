@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An exemplary real-world application demonstrating PureScript and the Halogen framework",
   "scripts": {
-    "build": "spago bundle --to dist/app.js && parcel build assets/index.html",
+    "build": "spago build && spago bundle --to dist/app.js && parcel build assets/index.html",
     "serve": "http-server dist"
   },
   "repository": {
